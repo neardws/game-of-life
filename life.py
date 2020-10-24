@@ -48,7 +48,7 @@ def GetNearbyCellsCount(i, j):
             nearby.append(getScreen(i, j + 1))
             nearby.append(getScreen(i + 1, j))
             nearby.append(getScreen(i + 1, j + 1))
-        elif j == height - 1:
+        elif j == width - 1:
             nearby.append(getScreen(i - 1, j - 1))
             nearby.append(getScreen(i - 1, j))
             nearby.append(getScreen(i, j - 1))
@@ -65,7 +65,7 @@ def GetNearbyCellsCount(i, j):
             nearby.append(getScreen(i, j + 1))
             nearby.append(getScreen(i + 1, j))
             nearby.append(getScreen(i + 1, j + 1))
-        elif j == height - 1:
+        elif j == width - 1:
             nearby.append(getScreen(i, j - 1))
             nearby.append(getScreen(i + 1, j - 1))
             nearby.append(getScreen(i + 1, j))
@@ -80,7 +80,7 @@ def GetNearbyCellsCount(i, j):
             nearby.append(getScreen(i - 1, j))
             nearby.append(getScreen(i - 1, j + 1))
             nearby.append(getScreen(i, j + 1))
-        elif j == height - 1:
+        elif j == width - 1:
             nearby.append(getScreen(i - 1, j - 1))
             nearby.append(getScreen(i - 1, j))
             nearby.append(getScreen(i, j - 1))
